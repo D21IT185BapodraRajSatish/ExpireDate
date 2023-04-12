@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Account">
+
+    <TextView
+        android:id="@+id/F_TV_Name"
+        style="@style/TEXT_VIEW_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/F_TV_Address"
+        style="@style/TEXT_VIEW_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/F_TV_Name"
+        android:layout_marginTop="10dp"
+        android:text="Address:" />
+
+    <TextView
+        android:id="@+id/F_TV_Phone"
+        style="@style/TEXT_VIEW_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/F_TV_Address"
+        android:layout_marginTop="10dp"
+        android:text="Phone:" />
+
+    <TextView
+        android:id="@+id/F_TV_Email"
+        style="@style/TEXT_VIEW_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/F_TV_Phone"
+        android:layout_marginTop="10dp"
+        android:text="Email:" />
+</RelativeLayout>

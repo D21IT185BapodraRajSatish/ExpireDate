@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".List_Add">
+
+    <EditText
+        android:id="@+id/LA_ET_BARCODE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Barcode" />
+
+    <EditText
+        android:id="@+id/LA_ET_PRODUCT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LA_ET_BARCODE"
+        android:hint="Product Name" />
+
+    <ImageButton
+        android:id="@+id/LA_img_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/LA_ET_PRODUCT"
+        android:layout_alignParentRight="true"
+        android:layout_margin="9dp"
+        android:background="@drawable/ic_calendar" />
+
+    <TextView
+        android:id="@+id/LA_TV_date"
+        style="@style/TEXT_VIEW_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/LA_img_btn"
+        android:layout_alignTop="@id/LA_img_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:text="dd-mm-yy"
+        android:textAppearance="@style/TXT_VIEW"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/Btn_Scan_Barcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LA_TV_date"
+        android:layout_alignStart="@id/LA_TV_date"
+        android:layout_marginTop="20dp"
+        android:text="Scan" />
+
+    <Button
+
+        android:id="@+id/LA_BTN_GETVALUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LA_TV_date"
+        android:layout_alignTop="@id/Btn_Scan_Barcode"
+        android:layout_alignEnd="@id/LA_img_btn"
+        android:text="GET Product Name" />
+
+    <Button
+        android:id="@+id/LA_BTN_SUBMITE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Btn_Scan_Barcode"
+        android:layout_centerHorizontal="true"
+        android:text="Submite" />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "455134278347",
+    "project_id": "expiredatetracking",
+    "storage_bucket": "expiredatetracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455134278347:android:11cb77fe4d1839be22614e",
+        "android_client_info": {
+          "package_name": "com.example.expire_date"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455134278347-v1k9gu3o8qsq0glh8kfl3ookirav4d3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi7w-Z3Kz5z-KssPbZ5B_G8b9RyI-sJwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455134278347-v1k9gu3o8qsq0glh8kfl3ookirav4d3a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "455134278347-2rhmmuci3ka3epas0rq3gji36er2i4s6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Student.ExpireDateTrackingApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455134278347:android:1c72e9bddb04683b22614e",
+        "android_client_info": {
+          "package_name": "com.example.newjugad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455134278347-v1k9gu3o8qsq0glh8kfl3ookirav4d3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi7w-Z3Kz5z-KssPbZ5B_G8b9RyI-sJwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455134278347-v1k9gu3o8qsq0glh8kfl3ookirav4d3a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "455134278347-2rhmmuci3ka3epas0rq3gji36er2i4s6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Student.ExpireDateTrackingApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

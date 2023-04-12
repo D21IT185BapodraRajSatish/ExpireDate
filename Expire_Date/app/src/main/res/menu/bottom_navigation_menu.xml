@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="List ADD"
+        android:id="@+id/bn_list_add"
+        android:icon="@drawable/add_list"/>
+
+    <item
+        android:title="List View"
+        android:id="@+id/bn_list_view"
+        android:icon="@drawable/list_view"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/bn_account"
+        android:icon="@drawable/account"/>
+</menu>
